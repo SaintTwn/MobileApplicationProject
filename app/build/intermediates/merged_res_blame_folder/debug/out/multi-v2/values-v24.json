@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-v24/values-v24.xml",
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-17:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\34462d2bd2b83951214613bab94f5b64\\transformed\\appcompat-v7-27.0.2\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/746233d19fa4c9f7c7031a81ca7c185a/transformed/appcompat-v7-27.0.2/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\2ed45922f8c23f878aeb9f3335422109\\transformed\\support-media-compat-27.0.2\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/16c5c3146c27360842fe1b589517bd16/transformed/support-media-compat-27.0.2/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

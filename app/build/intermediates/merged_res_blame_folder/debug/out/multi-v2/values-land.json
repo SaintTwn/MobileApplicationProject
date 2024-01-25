@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-land/values-land.xml",
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-17:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\fad17f4d2a2f74b0c7d274998dac4443\\transformed\\design-27.0.2\\res\\values-land\\values-land.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/0acddf4dabb7be271050089580f6726d/transformed/design-27.0.2/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\34462d2bd2b83951214613bab94f5b64\\transformed\\appcompat-v7-27.0.2\\res\\values-land\\values-land.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/746233d19fa4c9f7c7031a81ca7c185a/transformed/appcompat-v7-27.0.2/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

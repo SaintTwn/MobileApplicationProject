@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-v17/values-v17.xml",
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-17:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\34462d2bd2b83951214613bab94f5b64\\transformed\\appcompat-v7-27.0.2\\res\\values-v17\\values-v17.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/746233d19fa4c9f7c7031a81ca7c185a/transformed/appcompat-v7-27.0.2/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

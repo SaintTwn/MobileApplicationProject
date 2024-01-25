@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-id/values-id.xml",
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-17:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\7ddb0326e9eec55f0ffb85f010eb3bf7\\transformed\\facebook-common-4.30.0\\res\\values-id\\values-id.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/e679e235b3c8c6f8ea10d7498b7a9fdf/transformed/facebook-common-4.30.0/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

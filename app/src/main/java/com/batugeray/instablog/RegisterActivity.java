@@ -12,6 +12,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -66,21 +67,25 @@ public class RegisterActivity extends AppCompatActivity {
         toptext = findViewById(R.id.toptext);
 
 
+
         avatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if (ContextCompat.checkSelfPermission(RegisterActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                    if (ContextCompat.checkSelfPermission(RegisterActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                        // İzin iste
+
                         ActivityCompat.requestPermissions(RegisterActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
                     } else {
+                        // İzin zaten verildiyse, resim seçme işlemine devam et
                         pickimage();
                     }
                 } else {
+                    // Android M'den düşük cihazlar için izin kontrolü gerekli değil
                     pickimage();
                 }
             }
         });
-
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -161,9 +166,11 @@ public class RegisterActivity extends AppCompatActivity {
             password.setError("Şifrelerin eşleşmiyor! :(");
             secondpassword.setError("Şifrelerin eşleşmiyor! :(");
         }
+        /*
         else if (mainImageUri == null) {
             Toast.makeText(RegisterActivity.this, "Profil resmini seçmeyi unuttun!", Toast.LENGTH_LONG).show();
         }
+         */
         else {
             return true;
         }

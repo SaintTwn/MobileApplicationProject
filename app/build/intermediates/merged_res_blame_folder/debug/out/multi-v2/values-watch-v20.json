@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-17:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\729576d8a27264eb38bc42262da59454\\transformed\\play-services-auth-11.8.0\\res\\values-watch-v20\\values.xml",
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
