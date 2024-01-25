@@ -1,0 +1,358 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.batugeray.instablog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:24:5-79
+14-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:25:5-68
+15-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:26:22-79
+17
+18    <permission
+18-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:28:5-30:47
+19        android:name="com.batugeray.instablog.permission.C2D_MESSAGE"
+19-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:29:9-63
+20        android:protectionLevel="signature" />
+20-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:30:9-44
+21
+22    <uses-permission android:name="com.batugeray.instablog.permission.C2D_MESSAGE" />
+22-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:32:5-79
+22-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:32:22-76
+23
+24    <application
+24-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:9:5-80:19
+25        android:allowBackup="true"
+25-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:10:9-35
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:15:9-40
+33        <meta-data
+33-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:16:9-18:55
+34            android:name="com.facebook.sdk.ApplicationId"
+34-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:17:13-58
+35            android:value="@string/facebook_app_id" />
+35-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:18:13-52
+36
+37        <activity
+37-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:21:9-25:47
+38            android:name="com.batugeray.instablog.MainActivity"
+38-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:22:13-64
+39            android:launchMode="singleTask"
+39-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:23:13-44
+40            android:screenOrientation="portrait"
+40-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:24:13-49
+41            android:theme="@style/AppTheme" />
+41-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:25:13-44
+42        <activity
+42-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:26:9-30:65
+43            android:name="com.batugeray.instablog.LoginActivity"
+43-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:27:13-65
+44            android:launchMode="singleTask"
+44-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:28:13-44
+45            android:screenOrientation="portrait"
+45-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:29:13-49
+46            android:theme="@style/LoginRegisterActivityTheme" />
+46-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:30:13-62
+47        <activity
+47-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:31:9-42:20
+48            android:name="com.batugeray.instablog.WelcomeScreenActivity"
+48-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:33:13-73
+49            android:exported="true"
+49-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:32:13-36
+50            android:launchMode="singleTask"
+50-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:34:13-44
+51            android:screenOrientation="portrait"
+51-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:35:13-49
+52            android:theme="@style/AppTheme" >
+52-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:36:13-44
+53            <intent-filter>
+53-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:37:13-41:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:38:17-69
+54-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:38:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:40:17-77
+56-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:40:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:43:9-47:65
+60            android:name="com.batugeray.instablog.RegisterActivity"
+60-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:44:13-68
+61            android:launchMode="singleTask"
+61-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:45:13-44
+62            android:screenOrientation="portrait"
+62-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:46:13-49
+63            android:theme="@style/LoginRegisterActivityTheme" />
+63-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:47:13-62
+64        <activity
+64-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:48:9-52:47
+65            android:name="com.batugeray.instablog.PostActivity"
+65-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:49:13-64
+66            android:launchMode="singleTask"
+66-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:50:13-44
+67            android:screenOrientation="portrait"
+67-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:51:13-49
+68            android:theme="@style/AppTheme" />
+68-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:52:13-44
+69        <activity
+69-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:53:9-56:47
+70            android:name="com.batugeray.instablog.BlogDetails"
+70-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:54:13-63
+71            android:screenOrientation="portrait"
+71-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:55:13-49
+72            android:theme="@style/AppTheme" />
+72-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:56:13-44
+73        <activity
+73-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:57:9-60:46
+74            android:name="com.batugeray.instablog.ProfileActivity"
+74-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:58:13-67
+75            android:screenOrientation="portrait"
+75-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:59:13-49
+76            android:theme="@style/AppTheme" />
+76-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:60:13-44
+77        <activity
+77-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:61:9-64:48
+78            android:name="com.facebook.FacebookActivity"
+78-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:62:13-57
+79            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+79-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:63:13-96
+80            android:label="@string/app_name"
+80-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:64:13-45
+81            android:theme="@style/com_facebook_activity_theme" />
+81-->[com.facebook.android:facebook-common:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\7ddb0326e9eec55f0ffb85f010eb3bf7\transformed\facebook-common-4.30.0\AndroidManifest.xml:32:13-63
+82        <activity
+82-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:65:9-74:20
+83            android:name="com.facebook.CustomTabActivity"
+83-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:66:13-58
+84            android:exported="true" >
+84-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:67:13-36
+85            <intent-filter>
+85-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:68:13-73:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:69:17-69
+86-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:69:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:70:17-76
+88-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:70:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:71:17-78
+89-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:71:27-75
+90
+91                <data android:scheme="@string/fb_login_protocol_scheme" />
+91-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:72:17-75
+91-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:72:23-72
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:75:9-79:46
+95            android:name="com.batugeray.instablog.SettingsActivity"
+95-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:76:13-68
+96            android:launchMode="singleTask"
+96-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:77:13-44
+97            android:screenOrientation="portrait"
+97-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:78:13-49
+98            android:theme="@style/AppTheme" />
+98-->C:\Users\Aziz\Desktop\Mobil\azizekiz\InstaBlog\app\src\main\AndroidManifest.xml:79:13-44
+99        <activity android:name="com.facebook.CustomTabMainActivity" />
+99-->[com.facebook.android:facebook-common:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\7ddb0326e9eec55f0ffb85f010eb3bf7\transformed\facebook-common-4.30.0\AndroidManifest.xml:33:9-71
+99-->[com.facebook.android:facebook-common:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\7ddb0326e9eec55f0ffb85f010eb3bf7\transformed\facebook-common-4.30.0\AndroidManifest.xml:33:19-68
+100        <activity
+100-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:23:9-29:75
+101            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+101-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:24:13-85
+102            android:excludeFromRecents="true"
+102-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:25:13-46
+103            android:exported="true"
+103-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:26:13-36
+104            android:launchMode="singleInstance"
+104-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:27:13-48
+105            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+105-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:28:13-102
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.firebase:firebase-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\7bb5c237db74bc8f2b65968fe74c1eb4\transformed\firebase-auth-11.8.0\AndroidManifest.xml:29:13-72
+107        <activity
+107-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:23:9-27:75
+108            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+108-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:24:13-93
+109            android:excludeFromRecents="true"
+109-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:25:13-46
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:26:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:27:13-72
+112        <!--
+113            Service handling Google Sign-In user revocation. For apps that do not integrate with
+114            Google Sign-In, this service will never be started.
+115        -->
+116        <service
+116-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:33:9-36:110
+117            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+117-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:34:13-89
+118            android:exported="true"
+118-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:35:13-36
+119            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+119-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\729576d8a27264eb38bc42262da59454\transformed\play-services-auth-11.8.0\AndroidManifest.xml:36:13-107
+120
+121        <receiver
+121-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:28:9-32:20
+122            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+122-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:29:13-85
+123            android:enabled="true"
+123-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:30:13-35
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:31:13-37
+125        </receiver>
+126        <receiver
+126-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:33:9-41:20
+127            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+127-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:34:13-100
+128            android:enabled="true"
+128-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:35:13-35
+129            android:exported="true"
+129-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:36:13-36
+130            android:permission="android.permission.INSTALL_PACKAGES" >
+130-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:37:13-69
+131            <intent-filter>
+131-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:38:13-40:29
+132                <action android:name="com.android.vending.INSTALL_REFERRER" />
+132-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:39:17-79
+132-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:39:25-76
+133            </intent-filter>
+134        </receiver>
+135
+136        <service
+136-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:43:9-46:40
+137            android:name="com.google.android.gms.measurement.AppMeasurementService"
+137-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:44:13-84
+138            android:enabled="true"
+138-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:45:13-35
+139            android:exported="false" />
+139-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:46:13-37
+140        <service
+140-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:47:9-51:72
+141            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+141-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:48:13-87
+142            android:enabled="true"
+142-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:49:13-35
+143            android:exported="false"
+143-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:50:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" />
+144-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\bcd449748ae53fc2dc047a3da10f54b4\transformed\firebase-analytics-11.8.0\AndroidManifest.xml:51:13-69
+145
+146        <activity
+146-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\253c29ebb4b72260cf955f1c162df9cd\transformed\play-services-base-11.8.0\AndroidManifest.xml:23:9-26:75
+147            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+147-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\253c29ebb4b72260cf955f1c162df9cd\transformed\play-services-base-11.8.0\AndroidManifest.xml:24:13-79
+148            android:exported="false"
+148-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\253c29ebb4b72260cf955f1c162df9cd\transformed\play-services-base-11.8.0\AndroidManifest.xml:25:13-37
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+149-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\253c29ebb4b72260cf955f1c162df9cd\transformed\play-services-base-11.8.0\AndroidManifest.xml:26:13-72
+150
+151        <receiver
+151-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:35:9-44:20
+152            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+152-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:36:13-78
+153            android:exported="true"
+153-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:37:13-36
+154            android:permission="com.google.android.c2dm.permission.SEND" >
+154-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:38:13-73
+155            <intent-filter>
+155-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:39:13-43:29
+156                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+156-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:40:17-81
+156-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:40:25-78
+157
+158                <category android:name="com.batugeray.instablog" />
+158-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:42:17-61
+158-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:42:27-58
+159            </intent-filter>
+160        </receiver>
+161        <!--
+162             FirebaseInstanceIdService performs security checks at runtime,
+163             no need for explicit permissions despite exported="true"
+164        -->
+165        <service
+165-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:50:9-56:19
+166            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+166-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:51:13-77
+167            android:exported="true" >
+167-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:52:13-36
+168            <intent-filter android:priority="-500" >
+168-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:53:13-55:29
+168-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:53:28-51
+169                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+169-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:54:17-80
+169-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\69a04d68e400ae318a1cee427b3158fb\transformed\firebase-iid-11.8.0\AndroidManifest.xml:54:25-77
+170            </intent-filter>
+171        </service>
+172
+173        <provider
+173-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\fcaaf4f87cb45eaeb8f84b47eac73463\transformed\firebase-common-11.8.0\AndroidManifest.xml:8:9-12:39
+174            android:name="com.google.firebase.provider.FirebaseInitProvider"
+174-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\fcaaf4f87cb45eaeb8f84b47eac73463\transformed\firebase-common-11.8.0\AndroidManifest.xml:9:13-77
+175            android:authorities="com.batugeray.instablog.firebaseinitprovider"
+175-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\fcaaf4f87cb45eaeb8f84b47eac73463\transformed\firebase-common-11.8.0\AndroidManifest.xml:10:13-72
+176            android:exported="false"
+176-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\fcaaf4f87cb45eaeb8f84b47eac73463\transformed\firebase-common-11.8.0\AndroidManifest.xml:11:13-37
+177            android:initOrder="100" />
+177-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\fcaaf4f87cb45eaeb8f84b47eac73463\transformed\firebase-common-11.8.0\AndroidManifest.xml:12:13-36
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\e13ea24e753448459aeb8e1b6bb82830\transformed\play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\e13ea24e753448459aeb8e1b6bb82830\transformed\play-services-basement-11.8.0\AndroidManifest.xml:24:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Aziz\.gradle\caches\transforms-3\e13ea24e753448459aeb8e1b6bb82830\transformed\play-services-basement-11.8.0\AndroidManifest.xml:25:13-66
+182        <!--
+183         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+184         with the application context. This config is merged in with the host app's manifest,
+185         but there can only be one provider with the same authority activated at any given
+186         point; so if the end user has two or more different apps that use Facebook SDK, only the
+187         first one will be able to use the provider. To work around this problem, we use the
+188         following placeholder in the authority to identify each host application as if it was
+189         a completely different provider.
+190        -->
+191        <provider
+191-->[com.facebook.android:facebook-core:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\c47ab16071fdd4d1749bbeb0f40da000\transformed\facebook-core-4.30.0\AndroidManifest.xml:39:9-42:40
+192            android:name="com.facebook.internal.FacebookInitProvider"
+192-->[com.facebook.android:facebook-core:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\c47ab16071fdd4d1749bbeb0f40da000\transformed\facebook-core-4.30.0\AndroidManifest.xml:40:13-70
+193            android:authorities="com.batugeray.instablog.FacebookInitProvider"
+193-->[com.facebook.android:facebook-core:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\c47ab16071fdd4d1749bbeb0f40da000\transformed\facebook-core-4.30.0\AndroidManifest.xml:41:13-72
+194            android:exported="false" />
+194-->[com.facebook.android:facebook-core:4.30.0] C:\Users\Aziz\.gradle\caches\transforms-3\c47ab16071fdd4d1749bbeb0f40da000\transformed\facebook-core-4.30.0\AndroidManifest.xml:42:13-37
+195    </application>
+196
+197</manifest>

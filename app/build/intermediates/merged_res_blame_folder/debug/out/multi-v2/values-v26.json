@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\fad17f4d2a2f74b0c7d274998dac4443\\transformed\\design-27.0.2\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,299",
+                        "endLines": "5,6",
+                        "endColumns": "12,96",
+                        "endOffsets": "294,391"
+                    },
+                    "to": {
+                        "startLines": "16,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "796,1133",
+                        "endLines": "19,21",
+                        "endColumns": "12,96",
+                        "endOffsets": "1035,1225"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\34462d2bd2b83951214613bab94f5b64\\transformed\\appcompat-v7-27.0.2\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,1040",
+                        "endLines": "2,3,7,11,15,20",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,1128"
+                    }
+                }
+            ]
+        }
+    ]
+}

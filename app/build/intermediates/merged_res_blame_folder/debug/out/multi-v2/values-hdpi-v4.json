@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.batugeray.instablog.app-mergeDebugResources-18:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Aziz\\.gradle\\caches\\transforms-3\\34462d2bd2b83951214613bab94f5b64\\transformed\\appcompat-v7-27.0.2\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
