@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341054604823",
+    "project_id": "mobileinstablog",
+    "storage_bucket": "mobileinstablog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341054604823:android:1e0427ba757b8c1677be52",
+        "android_client_info": {
+          "package_name": "com.azizorkun.instablog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf6GgiIQ72yVFZv1kCdIuTPeTRJWcq6W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

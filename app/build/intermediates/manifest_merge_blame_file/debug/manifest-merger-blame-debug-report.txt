@@ -1,0 +1,368 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azizorkun.instablog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:5:5-80
+12-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:7:5-65
+14-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:7:22-62
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:8:5-60
+16-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:8:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:9:5-70
+17-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:9:19-67
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:24:5-79
+19-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:24:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:25:5-68
+20-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:25:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:26:22-79
+22
+23    <permission
+23-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:28:5-30:47
+24        android:name="com.azizorkun.instablog.permission.C2D_MESSAGE"
+24-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:29:9-63
+25        android:protectionLevel="signature" />
+25-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:30:9-44
+26
+27    <uses-permission android:name="com.azizorkun.instablog.permission.C2D_MESSAGE" />
+27-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:32:5-79
+27-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:32:22-76
+28
+29    <application
+29-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:11:5-82:19
+30        android:allowBackup="true"
+30-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:12:9-35
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:14:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:17:9-40
+39        <meta-data
+39-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:18:9-20:55
+40            android:name="com.facebook.sdk.ApplicationId"
+40-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:19:13-58
+41            android:value="@string/facebook_app_id" />
+41-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:20:13-52
+42
+43        <activity
+43-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:23:9-27:47
+44            android:name="com.azizorkun.instablog.MainActivity"
+44-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:24:13-64
+45            android:launchMode="singleTask"
+45-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:25:13-44
+46            android:screenOrientation="portrait"
+46-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:26:13-49
+47            android:theme="@style/AppTheme" />
+47-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:27:13-44
+48        <activity
+48-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:28:9-32:65
+49            android:name="com.azizorkun.instablog.LoginActivity"
+49-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:29:13-65
+50            android:launchMode="singleTask"
+50-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:30:13-44
+51            android:screenOrientation="portrait"
+51-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:31:13-49
+52            android:theme="@style/LoginRegisterActivityTheme" />
+52-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:32:13-62
+53        <activity
+53-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:33:9-44:20
+54            android:name="com.azizorkun.instablog.WelcomeScreenActivity"
+54-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:35:13-73
+55            android:exported="true"
+55-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:34:13-36
+56            android:launchMode="singleTask"
+56-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:36:13-44
+57            android:screenOrientation="portrait"
+57-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:37:13-49
+58            android:theme="@style/AppTheme" >
+58-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:38:13-44
+59            <intent-filter>
+59-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:39:13-43:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:40:17-69
+60-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:40:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:42:17-77
+62-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:42:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:45:9-49:65
+66            android:name="com.azizorkun.instablog.RegisterActivity"
+66-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:46:13-68
+67            android:launchMode="singleTask"
+67-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:47:13-44
+68            android:screenOrientation="portrait"
+68-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:48:13-49
+69            android:theme="@style/LoginRegisterActivityTheme" />
+69-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:49:13-62
+70        <activity
+70-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:50:9-54:47
+71            android:name="com.azizorkun.instablog.PostActivity"
+71-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:51:13-64
+72            android:launchMode="singleTask"
+72-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:52:13-44
+73            android:screenOrientation="portrait"
+73-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:53:13-49
+74            android:theme="@style/AppTheme" />
+74-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:54:13-44
+75        <activity
+75-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:55:9-58:47
+76            android:name="com.azizorkun.instablog.BlogDetails"
+76-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:56:13-63
+77            android:screenOrientation="portrait"
+77-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:57:13-49
+78            android:theme="@style/AppTheme" />
+78-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:58:13-44
+79        <activity
+79-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:59:9-62:46
+80            android:name="com.azizorkun.instablog.ProfileActivity"
+80-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:60:13-67
+81            android:screenOrientation="portrait"
+81-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:61:13-49
+82            android:theme="@style/AppTheme" />
+82-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:62:13-44
+83        <activity
+83-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:63:9-66:48
+84            android:name="com.facebook.FacebookActivity"
+84-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:64:13-57
+85            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+85-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:65:13-96
+86            android:label="@string/app_name"
+86-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:66:13-45
+87            android:theme="@style/com_facebook_activity_theme" />
+87-->[com.facebook.android:facebook-common:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/e679e235b3c8c6f8ea10d7498b7a9fdf/transformed/facebook-common-4.30.0/AndroidManifest.xml:32:13-63
+88        <activity
+88-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:67:9-76:20
+89            android:name="com.facebook.CustomTabActivity"
+89-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:68:13-58
+90            android:exported="true" >
+90-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:69:13-36
+91            <intent-filter>
+91-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:70:13-75:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:71:17-69
+92-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:71:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:72:17-76
+94-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:72:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:73:17-78
+95-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:73:27-75
+96
+97                <data android:scheme="@string/fb_login_protocol_scheme" />
+97-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:74:17-75
+97-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:74:23-72
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:77:9-81:46
+101            android:name="com.azizorkun.instablog.SettingsActivity"
+101-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:78:13-68
+102            android:launchMode="singleTask"
+102-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:79:13-44
+103            android:screenOrientation="portrait"
+103-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:80:13-49
+104            android:theme="@style/AppTheme" />
+104-->/Users/orkunalpalim/Desktop/MobileApplicationProject-e95b094876d20b8aa48fe4b1650d7679a9c195f1/app/src/main/AndroidManifest.xml:81:13-44
+105        <activity android:name="com.facebook.CustomTabMainActivity" />
+105-->[com.facebook.android:facebook-common:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/e679e235b3c8c6f8ea10d7498b7a9fdf/transformed/facebook-common-4.30.0/AndroidManifest.xml:33:9-71
+105-->[com.facebook.android:facebook-common:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/e679e235b3c8c6f8ea10d7498b7a9fdf/transformed/facebook-common-4.30.0/AndroidManifest.xml:33:19-68
+106        <activity
+106-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:23:9-29:75
+107            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+107-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:24:13-85
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:25:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:26:13-36
+110            android:launchMode="singleInstance"
+110-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:27:13-48
+111            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+111-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:28:13-102
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.firebase:firebase-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/3b021c943c42a6d007de51e1c479adfd/transformed/firebase-auth-11.8.0/AndroidManifest.xml:29:13-72
+113        <activity
+113-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:23:9-27:75
+114            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+114-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:24:13-93
+115            android:excludeFromRecents="true"
+115-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:25:13-46
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:26:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:27:13-72
+118        <!--
+119            Service handling Google Sign-In user revocation. For apps that do not integrate with
+120            Google Sign-In, this service will never be started.
+121        -->
+122        <service
+122-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:33:9-36:110
+123            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+123-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:34:13-89
+124            android:exported="true"
+124-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:35:13-36
+125            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+125-->[com.google.android.gms:play-services-auth:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/ff8fae648050261f0c08ee8d84cc1d04/transformed/play-services-auth-11.8.0/AndroidManifest.xml:36:13-107
+126
+127        <receiver
+127-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:28:9-32:20
+128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+128-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:29:13-85
+129            android:enabled="true"
+129-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:30:13-35
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:31:13-37
+131        </receiver>
+132        <receiver
+132-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:33:9-41:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+133-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:34:13-100
+134            android:enabled="true"
+134-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:35:13-35
+135            android:exported="true"
+135-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:36:13-36
+136            android:permission="android.permission.INSTALL_PACKAGES" >
+136-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:37:13-69
+137            <intent-filter>
+137-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:38:13-40:29
+138                <action android:name="com.android.vending.INSTALL_REFERRER" />
+138-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:39:17-79
+138-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:39:25-76
+139            </intent-filter>
+140        </receiver>
+141
+142        <service
+142-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:43:9-46:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:44:13-84
+144            android:enabled="true"
+144-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:45:13-35
+145            android:exported="false" />
+145-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:46:13-37
+146        <service
+146-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:47:9-51:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:48:13-87
+148            android:enabled="true"
+148-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:49:13-35
+149            android:exported="false"
+149-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:50:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.firebase:firebase-analytics:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1a8dd3d9d5300da47df50a02364b71e8/transformed/firebase-analytics-11.8.0/AndroidManifest.xml:51:13-69
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f6df60adb3780c5a97c9edad894a04a1/transformed/play-services-base-11.8.0/AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f6df60adb3780c5a97c9edad894a04a1/transformed/play-services-base-11.8.0/AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f6df60adb3780c5a97c9edad894a04a1/transformed/play-services-base-11.8.0/AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f6df60adb3780c5a97c9edad894a04a1/transformed/play-services-base-11.8.0/AndroidManifest.xml:26:13-72
+156
+157        <receiver
+157-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:35:9-44:20
+158            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+158-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:36:13-78
+159            android:exported="true"
+159-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:37:13-36
+160            android:permission="com.google.android.c2dm.permission.SEND" >
+160-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:38:13-73
+161            <intent-filter>
+161-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:39:13-43:29
+162                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+162-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:40:17-81
+162-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:40:25-78
+163
+164                <category android:name="com.azizorkun.instablog" />
+164-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:42:17-61
+164-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:42:27-58
+165            </intent-filter>
+166        </receiver>
+167        <!--
+168             FirebaseInstanceIdService performs security checks at runtime,
+169             no need for explicit permissions despite exported="true"
+170        -->
+171        <service
+171-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:50:9-56:19
+172            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+172-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:51:13-77
+173            android:exported="true" >
+173-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:52:13-36
+174            <intent-filter android:priority="-500" >
+174-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:53:13-55:29
+174-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:53:28-51
+175                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+175-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:54:17-80
+175-->[com.google.firebase:firebase-iid:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/1c1c1e549d0a35b0b359bbe2563a996d/transformed/firebase-iid-11.8.0/AndroidManifest.xml:54:25-77
+176            </intent-filter>
+177        </service>
+178
+179        <provider
+179-->[com.google.firebase:firebase-common:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f670d35642f2e1de7083c8ed088bf71d/transformed/firebase-common-11.8.0/AndroidManifest.xml:8:9-12:39
+180            android:name="com.google.firebase.provider.FirebaseInitProvider"
+180-->[com.google.firebase:firebase-common:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f670d35642f2e1de7083c8ed088bf71d/transformed/firebase-common-11.8.0/AndroidManifest.xml:9:13-77
+181            android:authorities="com.azizorkun.instablog.firebaseinitprovider"
+181-->[com.google.firebase:firebase-common:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f670d35642f2e1de7083c8ed088bf71d/transformed/firebase-common-11.8.0/AndroidManifest.xml:10:13-72
+182            android:exported="false"
+182-->[com.google.firebase:firebase-common:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f670d35642f2e1de7083c8ed088bf71d/transformed/firebase-common-11.8.0/AndroidManifest.xml:11:13-37
+183            android:initOrder="100" />
+183-->[com.google.firebase:firebase-common:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/f670d35642f2e1de7083c8ed088bf71d/transformed/firebase-common-11.8.0/AndroidManifest.xml:12:13-36
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/6dbedbcc9fbae6abd2ecdc3a1ae8aaa0/transformed/play-services-basement-11.8.0/AndroidManifest.xml:23:9-25:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/6dbedbcc9fbae6abd2ecdc3a1ae8aaa0/transformed/play-services-basement-11.8.0/AndroidManifest.xml:24:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:11.8.0] /Users/orkunalpalim/.gradle/caches/transforms-3/6dbedbcc9fbae6abd2ecdc3a1ae8aaa0/transformed/play-services-basement-11.8.0/AndroidManifest.xml:25:13-66
+188        <!--
+189         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+190         with the application context. This config is merged in with the host app's manifest,
+191         but there can only be one provider with the same authority activated at any given
+192         point; so if the end user has two or more different apps that use Facebook SDK, only the
+193         first one will be able to use the provider. To work around this problem, we use the
+194         following placeholder in the authority to identify each host application as if it was
+195         a completely different provider.
+196        -->
+197        <provider
+197-->[com.facebook.android:facebook-core:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/8545321192ce7ec4e8d72e3574af4496/transformed/facebook-core-4.30.0/AndroidManifest.xml:39:9-42:40
+198            android:name="com.facebook.internal.FacebookInitProvider"
+198-->[com.facebook.android:facebook-core:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/8545321192ce7ec4e8d72e3574af4496/transformed/facebook-core-4.30.0/AndroidManifest.xml:40:13-70
+199            android:authorities="com.azizorkun.instablog.FacebookInitProvider"
+199-->[com.facebook.android:facebook-core:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/8545321192ce7ec4e8d72e3574af4496/transformed/facebook-core-4.30.0/AndroidManifest.xml:41:13-72
+200            android:exported="false" />
+200-->[com.facebook.android:facebook-core:4.30.0] /Users/orkunalpalim/.gradle/caches/transforms-3/8545321192ce7ec4e8d72e3574af4496/transformed/facebook-core-4.30.0/AndroidManifest.xml:42:13-37
+201    </application>
+202
+203</manifest>

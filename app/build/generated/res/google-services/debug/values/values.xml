@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">341054604823</string>
+    <string name="google_api_key" translatable="false">AIzaSyBf6GgiIQ72yVFZv1kCdIuTPeTRJWcq6W0</string>
+    <string name="google_app_id" translatable="false">1:341054604823:android:1e0427ba757b8c1677be52</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBf6GgiIQ72yVFZv1kCdIuTPeTRJWcq6W0</string>
+    <string name="google_storage_bucket" translatable="false">mobileinstablog.appspot.com</string>
+    <string name="project_id" translatable="false">mobileinstablog</string>
+</resources>

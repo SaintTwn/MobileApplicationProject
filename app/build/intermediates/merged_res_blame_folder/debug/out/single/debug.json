@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_cursor.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/cursor.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_views.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/views.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_bell.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/bell.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_trending.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/trending.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_profile.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_send_comment_input.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/send_comment_input.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_logo.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/logo.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_comment_dialog_layout.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/comment_dialog_layout.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_custom_toolbar.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/custom_toolbar.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_blog_row.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/blog_row.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_bookmark.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/bookmark.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/anim_zoom_out.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/anim/zoom_out.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_no_comments.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/no_comments.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_logowhite.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/logowhite.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_register.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_loginsignupbg.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/loginsignupbg.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_edit.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/edit.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_password.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/password.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_loginlogo.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/loginlogo.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_edittextshape.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/edittextshape.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_fragment_trending.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/fragment_trending.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_settings.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_search.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/search.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_home.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/home.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_logout_button.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/logout_button.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_bookmarked.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/bookmarked.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/anim_translate_down.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/anim/translate_down.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_profilebg.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/profilebg.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_edittext_shape_two.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/edittext_shape_two.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_main.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_nameavatar.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/nameavatar.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_welcome_screen.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_welcome_screen.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_second_toolbar.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/second_toolbar.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_delete.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/delete.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_call.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/call.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_post.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_post.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_mail.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/mail.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_bottom_nav_colorselector.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/bottom_nav_colorselector.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_fragment_home.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_close_btn.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/close_btn.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_loginbutton.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/loginbutton.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_activity.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/activity.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_notifications.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/notifications.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_nonuserprofilebg.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/nonuserprofilebg.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_blog_details.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_blog_details.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_liked.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/liked.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_fragment_bookmarks.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/fragment_bookmarks.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_share.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/share.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/anim_zoom_in.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/anim/zoom_in.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_welcomescreenbg.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/welcomescreenbg.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_comment_layout.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/comment_layout.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_tick.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/tick.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_send_comment.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/send_comment.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/menu_bootm_nav_menu.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/menu/bootm_nav_menu.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_activity_login.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_back.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/back.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_back_btn_two.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/back_btn_two.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/layout_post_grid.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/layout/post_grid.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/anim_translate_up.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/anim/translate_up.xml"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_comment_logo.png.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/comment_logo.png"
+    },
+    {
+        "merged": "com.azizorkun.instablog.app-merged_res-19:/drawable_unliked.xml.flat",
+        "source": "com.azizorkun.instablog.app-main-21:/drawable/unliked.xml"
+    }
+]

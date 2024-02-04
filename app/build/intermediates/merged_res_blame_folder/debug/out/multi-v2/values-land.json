@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.azizorkun.instablog.app-mergeDebugResources-17:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/0acddf4dabb7be271050089580f6726d/transformed/design-27.0.2/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/orkunalpalim/.gradle/caches/transforms-3/746233d19fa4c9f7c7031a81ca7c185a/transformed/appcompat-v7-27.0.2/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}
